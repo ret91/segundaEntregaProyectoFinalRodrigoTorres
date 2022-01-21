@@ -1,0 +1,135 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+/* Header */
+
+.barraNavegacion {
+    font-size: 0.8rem;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #161616, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2b2a2a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.fontNav{
+    color:blanchedalmond;
+    text-decoration-style: solid;
+    
+}
+
+
+
+.navbar-toggler{
+    color:blanchedalmond;
+    background-color: #1b5a91;   
+}
+
+
+/* Body */
+
+body {
+    background: #4B79A1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #1b5a91);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(14, 13, 13);
+
+}
+
+.banner{
+    font-size: 0.8rem;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #161616, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2b2a2a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 0.5rem;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: black;
+    text-decoration-style: solid;
+    padding: 2rem;
+    margin: 1rem auto;
+    font-size: .7rem;
+}
+
+.linkHeader {
+    position: fixed;
+    justify-content: center;
+    bottom: 2%;
+    right: 2%;
+    margin: 1rem;
+}
+
+
+
+
+/* Formulario Contacto */
+.formContainer__title {
+
+
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__label {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+
+
+}
+
+.form__input,
+.form__textarea {
+    width: 60%;
+
+    background-color: #121212;
+    color: blanchedalmond;
+
+    border: none;
+    border-bottom: solid 1px #2E4C6D;
+
+
+}
+
+.form__textarea {
+    height: 5rem;
+    resize: none;
+}
+
+.form__input:focus,
+.form__textarea:focus {
+    outline: none;
+}
+
+.form__input--submit {
+    background-color: #2E4C6D;
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+    border-bottom: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form__input--submit:hover {
+    background-color: #33659b;
+}
