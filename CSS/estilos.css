@@ -35,7 +35,7 @@
 
 /* Body */
 
-body {
+.body {
     background: #4B79A1;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #283E51, #1b5a91);
