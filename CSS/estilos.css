@@ -7,8 +7,15 @@
 
 /* Header */
 
+.fontNav{
+    color:blanchedalmond;
+    text-decoration-style: solid;
+    font-size: 1.5rem;
+    
+}
+
 .barraNavegacion {
-    font-size: 0.8rem;
+    
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #161616, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2b2a2a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -16,11 +23,7 @@
 
 }
 
-.fontNav{
-    color:blanchedalmond;
-    text-decoration-style: solid;
-    
-}
+
 
 
 
@@ -44,7 +47,7 @@ body {
 }
 
 .banner{
-    font-size: 0.8rem;
+    font-size: 0rem;
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #161616, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2b2a2a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -65,7 +68,7 @@ footer {
     text-decoration-style: solid;
     padding: 2rem;
     margin: 1rem auto;
-    font-size: .7rem;
+    font-size: 1.1rem;
 }
 
 .linkHeader {
